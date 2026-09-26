@@ -1,0 +1,271 @@
+.logo{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height:45px ;
+  width:50px ;
+  margin-left: 30px ;
+}
+
+
+.brand{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 20px;
+}
+
+.search-icon{
+  height:25px ;
+  width:32px ;
+  background: transparent ;
+}
+
+.search-section{
+  display: flex;
+  align-items: center ;
+}
+
+
+
+.auth-section{
+  display: flex ;
+  align-items: center ;
+  gap: 10px;
+  text-decoration: none;
+  margin-right: 10px;
+
+}
+.signin-icon,.wishlist-icon,.cart-icon{
+  height : 20px ;
+  width: 20px ;
+  margin-top: 0;
+
+}
+.text{
+  margin-top: 0 ;
+}
+
+.auth-section a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-section{
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 0;
+
+}
+
+.search-bar{
+  width:500px ;
+  height:30px;
+}
+
+.second-header{
+  height: 40px;
+  background-color: rgb(63, 67, 82);
+  color: white;
+  display: block;
+  gap: 100px;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  margin-left: 100px;
+  align-content: center;
+
+}
+
+.category-list{
+  background-color: black;
+
+}
+
+.second-header-content{
+  display:flex ;
+  gap: 200px;
+  cursor: pointer;
+  color: white;
+  align-items: center;
+ 
+}
+.category-text,.newarrival-text ,.deals-text{
+  color:white;
+  text-decoration: none;
+  margin-top: 10px ;
+  margin-left: 100px ;
+}
+
+
+.category-list {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  background-color: white;
+  margin-left: 110px ;
+  margin-right:0 ;
+}
+.category-list a{
+  color: black ;
+  text-decoration: none;
+}
+
+.banner-section{
+  display: flex ;
+  height:400px ;
+  margin-top: 30px;
+}
+
+.banner-image{
+  height:400px ;
+  background-color: whitesmoke;
+}
+
+.wishlisticon{
+  height:15px ;
+  width:15px ;
+  margin-top: 5px;
+  margin-left:10px;
+}
+
+.new-products{
+  color: rgb(63, 67, 82);
+  font-weight: bold;
+  margin-left: 650px;
+  font-size: 40px ;
+}
+
+.product-info{
+  display: flex;
+  color: black;
+  gap:0 ;
+  padding:0 ;
+  flex-direction: column;
+
+}
+
+.product-info-box{
+  display: flex ;
+  margin-left: 50px;
+}
+
+.product-name,.rating,.price{
+  margin-bottom:2px ;
+  margin-top: 2px ;
+}
+
+.bag-product{
+  height:200px ;
+  width: 200px ;
+  margin-left: 50px ;
+  margin-top: 10px ;
+  
+}
+
+.product-list{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+ row-gap: 30px ;
+ 
+}
+
+.product-card{
+  margin-left: 50px;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  
+}
+
+.best-products-displaybanner{
+  background-color: rgb(63, 67, 82);
+  height:320px ;
+  margin-left: 50px;
+  width:1000px ;
+  margin-bottom: 20px ;
+  border-radius: 10px;
+
+}
+
+.best-products-displaybanner2{
+  background-color: rgb(63, 67, 82);
+  height:150px ;
+  margin-left: 50px;
+  margin-right: 50px;
+  width:600px ;
+  margin-bottom: 20px ;
+  border-radius: 10px;
+
+}
+
+.best-products-displaybanner3{
+  background-color: orange;
+  height:150px ;
+  margin-left: 50px;
+  width:280px ;
+  margin-bottom: 20px ;
+  border-radius: 10px;
+
+}
+
+
+.best-products-displaybanner4{
+  background-color: orange;
+  height:150px ;
+  margin-right: 50px;
+  width:280px ;
+  margin-bottom: 20px ;
+  margin-left: 45px ;
+  border-radius: 10px;
+}
+
+.orange-box{
+  display:flex ;
+}
+
+.box-two{
+  display: flex ;
+  flex-direction: column;
+
+}
+
+.box-one{
+  display:flex ;
+  margin-top: 50px ;
+  color: white;
+  
+}
+
+.shop-now{
+  height:30px ;
+  width: 100px ;
+  background-color: orange;
+  margin-left: 30px ;
+  border: 0;
+}
+
+body{
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box-one-title{
+  margin-left: 30px ;
+}
+
+.banner-text{
+  margin-left: 15px ;
+}
